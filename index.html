@@ -8,49 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
-    <title>Portfolio001</title>
+
+    <title>P - 2</title>
     <style>
+        section {
+            display: flex;
+        }
+
         body {
             background-color: antiquewhite;
-            margin: 0px;
+            margin: 50px;
             padding: 0px;
         }
 
         .header-font {
             font-family: 'PT Serif', serif;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 55px;
             margin: 0px;
             padding: 0px;
         }
 
         #header-diffrent-text-style {
-            font-weight: 700;
-        }
-
-        section {
-            display: flex;
-        }
-
-        .width-half {
-            width: 50%;
-        }
-
-        .width-half img {
-            width: 75%;
-        }
-
-        .width-half p {
-            width: 75%;
-            text-align: justify;
-        }
-
-        .base-padding {
-            padding: 50px;
+            font-weight: 800;
         }
 
         .Hire-me-btn {
-            background-color: chocolate;
+            background-image: linear-gradient(#FBC490, #FBAA60);
             width: 140px;
             padding: 2px;
             text-align: center;
@@ -63,40 +47,57 @@
             font-size: 18px;
             font-family: 'PT Serif', serif;
         }
+
+        .width-half {
+            width: 50%;
+        }
+
+        .width-half img {
+            width: 80%;
+        }
+
+        .width-half p {
+            width: 80%;
+            text-align: justify;
+            font-weight: 200;
+        }
+
+        #head-cst-mrgn-prt1 {
+            margin-top: 135px;
+            margin-left: 45px;
+            padding-left: 20px;
+        }
+
+        #head-cst-mrgn-prt2 {
+            margin-left: 50px;
+            margin-top: 50px;
+            padding-left: 25px;
+        }
     </style>
 </head>
 
 <body>
-    <!-- Header Section - p1 - Start   -->
     <section>
-
-        <div>
-            <div class="width-half base-padding">
-                <h1 class="header-font">
-                    Stay Focused On
-                </h1>
-                <h1 class="header-font" id="header-diffrent-text-style">
-                    <span style="color: coral;">
-                        MISSION 2022
-                    </span>
-                </h1>
-                <p>
-                    Staying focused on my journey - trying to become web developer
-                    is and always been very tough for me cause i'm not good at staying focused in
-                    something for long. But this time - i'll give my very best to stay focused and
-                    to achive my goals and make myself and my family proud.
-                </p>
-                <button class="Hire-me-btn">
-                    <a target="blank" href="https://www.linkedin.com/in/sanjid-mollik-2896b0117/">Hire Me</a>
-                </button>
-            </div>
-            <div class="width-half base-padding">
-                <img src="assets\me_1.png" alt="my_Photo">
-            </div>
+        <div class="width-half " id="head-cst-mrgn-prt1">
+            <h1 class="header-font">Stay Focused On</h1>
+            <h2 class="header-font" id="header-diffrent-text-style"><span style="color: coral;">
+                    MISSION 2022
+                </span></h2>
+            <p>
+                Staying focused on my journey - trying to become web developer is and always
+                been very tough for me cause i'm not good at staying focused in something for
+                long. But this time - i'll give my very best
+                to stay focused and to achive my goals and make myself and my family proud.
+            </p>
+            <button class="Hire-me-btn">
+                <a target="blank" href="https://www.linkedin.com/in/sanjid-mollik-2896b0117/">Hire Me</a>
+            </button>
         </div>
-
+        <div class="width-half " id="head-cst-mrgn-prt2">
+            <img src="assets/me_1.png" alt="">
+        </div>
     </section>
-    <!-- Header Section - p1 - End   -->
+
 </body>
 
 </html>
