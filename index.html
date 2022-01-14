@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,53 +10,93 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
     <title>Portfolio001</title>
     <style>
-        body{
+        body {
             background-color: antiquewhite;
-            margin: 50px;
-            padding: 0px;
-        }
-        .header-font{
-            font-family: 'PT Serif', serif;
-            font-weight: 700;
-            font-size: 65px;
             margin: 0px;
             padding: 0px;
         }
-        #header-diffrent-text-style{
-            font-weight: 900;
+
+        .header-font {
+            font-family: 'PT Serif', serif;
+            font-weight: 500;
+            font-size: 55px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header-diffrent-text-style {
+            font-weight: 700;
+        }
+
+        section {
+            display: flex;
+        }
+
+        .width-half {
+            width: 50%;
+        }
+
+        .width-half img {
+            width: 75%;
+        }
+
+        .width-half p {
+            width: 75%;
+            text-align: justify;
+        }
+
+        .base-padding {
+            padding: 50px;
+        }
+
+        .Hire-me-btn {
+            background-color: chocolate;
+            width: 140px;
+            padding: 2px;
+            text-align: center;
+            border-radius: 10px;
+            height: 40px;
+        }
+
+        .Hire-me-btn a {
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'PT Serif', serif;
         }
     </style>
 </head>
+
 <body>
     <!-- Header Section - p1 - Start   -->
     <section>
 
         <div>
-            <div>
+            <div class="width-half base-padding">
                 <h1 class="header-font">
                     Stay Focused On
                 </h1>
                 <h1 class="header-font" id="header-diffrent-text-style">
                     <span style="color: coral;">
                         MISSION 2022
-                    </span> 
+                    </span>
                 </h1>
                 <p>
-                    Staying focused on my journey - trying to become web developer 
-                    is and always been very tough for me cause i'm not good at staying focused in 
+                    Staying focused on my journey - trying to become web developer
+                    is and always been very tough for me cause i'm not good at staying focused in
                     something for long. But this time - i'll give my very best to stay focused and
-                     to achive my goals and make myself and my family proud. 
+                    to achive my goals and make myself and my family proud.
                 </p>
-                <button>
-                    <input type="Submit">
+                <button class="Hire-me-btn">
+                    <a target="blank" href="https://www.linkedin.com/in/sanjid-mollik-2896b0117/">Hire Me</a>
                 </button>
             </div>
-            <div>
-                <img src="assets\me_2.png" alt="my_Photo">
+            <div class="width-half base-padding">
+                <img src="assets\me_1.png" alt="my_Photo">
             </div>
         </div>
 
     </section>
     <!-- Header Section - p1 - End   -->
 </body>
+
 </html>
