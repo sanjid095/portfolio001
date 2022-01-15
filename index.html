@@ -17,7 +17,7 @@
 
         body {
             background-color: antiquewhite;
-            margin: 50px;
+            margin: 0px;
             padding: 0px;
         }
 
@@ -91,6 +91,7 @@
             font-family: 'PT Serif', serif;
             font-size: 70px;
             text-align: center;
+            margin-bottom: 50px;
         }
 
         .sec_2-width {
@@ -155,6 +156,75 @@
             text-decoration: none;
             font-size: 18px;
             font-family: 'PT Serif', serif;
+        }
+
+        .queru-head-data {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'PT Serif', serif;
+        }
+
+        .form-element-lable {
+            font-size: 26px;
+            font-family: 'PT Serif', serif;
+            margin: 0px 0px 20px 0px;
+            padding: 0px;
+        }
+
+        .form-element-elemnt {
+            width: 450px;
+            height: 35px;
+            border-radius: 10px;
+            margin: 0px 0px 5px 0px;
+            padding: 0px;
+        }
+
+        #form-element-elemnt-id {
+            width: 450px;
+            height: 230px;
+            border-radius: 10px;
+        }
+
+        #frm-sub-btn {
+            width: 200px;
+            height: 35px;
+            font-size: 20px;
+            font-family: 'PT Serif', serif;
+            background-color: coral;
+            border-radius: 10px;
+            margin-top: 150px;
+            margin-left: 30px;
+        }
+
+        .frm-prt-styl {
+            margin: 20px;
+        }
+
+        .footer-design {
+            text-align: center;
+            margin: 50px 0px 15px 0px;
+            background-color: darkslategray;
+        }
+
+        .sec-footer {
+            font-weight: 600;
+            font-family: 'PT Serif', serif;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .sec_footer-width {
+            width: 100%;
+            margin: 0px;
+            height: auto;
+
+
+        }
+
+        .footer-line2 {
+            font-size: 20px;
+
         }
     </style>
 </head>
@@ -306,8 +376,58 @@
         </div>
 
     </section>
+    <section>
+        <div class="sec_2-width">
+            <p class="Sec_2-header">
+                Submit your <span style="color: coral;">Query</span>
+            </p>
+            <p class="queru-head-data">
+                Please fill out this form below to let us know in details about your query...
+            </p>
 
+        </div>
+    </section>
+    <section>
 
+        <div style="display: flex;">
+            <div class="frm-prt-styl">
+                <p class="form-element-lable">Name:</p>
+                <input class="form-element-elemnt" type="text">
+
+                <p class="form-element-lable">Email:</p>
+                <input class="form-element-elemnt" type="text">
+
+                <p class="form-element-lable">Contact</p>
+                <input class="form-element-elemnt" type="text">
+            </div>
+            <div class="frm-prt-styl">
+                <p class="form-element-lable">Details of Query:</p>
+                <textarea id="form-element-elemnt-id" name="message" rows="10" cols="30"></textarea>
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <button id="frm-sub-btn">
+                Submit Your Query
+            </button>
+        </div>
+
+    </section>
 </body>
+
+<!--  -->
+<footer>
+
+    <div class="sec_footer-width">
+        <p class="footer-design sec-footer queru-head-data">
+            MISSION <span style="color: coral;">2022</span><br>
+
+            <span class="footer-line2">@Hard work, Perseverance, and Determination for 2022.</span>
+        </p>
+
+    </div>
+
+</footer>
 
 </html>
